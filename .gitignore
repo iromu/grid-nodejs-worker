@@ -1,0 +1,17 @@
+node_modules
+public
+.tmp
+.idea
+*.iml
+client/bower_components
+dist
+coverage
+/worker/config/local.env.js
+browser.js
+*.log
+
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.sample
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml

@@ -1,0 +1,9 @@
+language: node_js
+node_js:
+  - '0.12'
+before_install: sudo apt-get install libcairo2-dev libjpeg8-dev libpango1.0-dev libgif-dev build-essential g++
+before_script:
+  - npm install -g bower grunt-cli
+  - npm install -g istanbul
+  - bower install
+script: "npm run-script coverage"
